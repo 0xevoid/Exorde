@@ -40,7 +40,7 @@ You have two choices to run the Exorde CLI :
 |----------|---------------------|
 |Operating system|Ubuntu 18.04 or higher|
 
-# -BECAUSE I USED DOCKER TO RUN IT ME!! 
+# - BECAUSE I USED DOCKER TO RUN IT ME!! 
 ```
 sudo apt-get update
 sudo apt-get install \
@@ -51,18 +51,18 @@ sudo apt-get install \
     screen \
     git
 ```
-### -Add official Docker GPG key
+### - Add official Docker GPG key
 ```
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
-### -Repository settings
+### - Repository settings
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-### -Docker install
+### - Docker install
 First you need to have Docker installed on your machine.
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
@@ -74,31 +74,31 @@ docker --version
 If it's the case you'll have something like that in output:  
 `Docker version 20.10.20, build 9fdeb9c`
 
-### -Download Exorde pack
+### - Download Exorde pack
 ```
 git clone https://github.com/exorde-labs/ExordeModuleCLI.git
 ```
-### -Go to Exorde folder
+### - Go to Exorde folder
 ```
 cd ExordeModuleCLI
 ```
-### -BUILD Docker
+### - BUILD Docker
 ```
 docker build -t exorde-cli . 
 ```
-### -Run Validator
--Open a new screen using `screen`
+### - Run Validator
+- Open a new screen using `screen`
 ```
 screen -Rd exorde
 ```
--Then run the command below
+- Then run the command below
 
 ```
 docker run -it exorde-cli -m YOUR_ETH_WALLET_ADDRESS -l LEVEL_LOGGING
 ```
 **exanple**
 ```
-docker run -it exorde-cli -m 0x0xxxxx -l 4
+docker run -it exorde-cli -m 0x0898xxxxx -l 4
 ```
 For logging can be filled in 0, 1, 2, 3, 4 logging details I will explain
 | Logging levels | Description |
