@@ -110,6 +110,8 @@ For logging can be filled in 0, 1, 2, 3, 4 logging details I will explain
 |4|Validation logs (details) + scrapping logs (for troubleshooting)|
 
 > I recommend using Logging level 4 to make it easier to troubleshoot if there are problems
+
+
 > **Main Ethereum Address, which will get all REP & EXDT for this local worker contribution.**
 **Exorde Reputation is non-transferable.**
 
