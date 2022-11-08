@@ -67,7 +67,7 @@ First you need to have Docker installed on your machine.
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
--Check you have docker correctly installed by typing on your terminal: 
+- Check you have docker correctly installed by typing on your terminal: 
 ```
 docker --version
 ```
