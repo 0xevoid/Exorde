@@ -96,7 +96,7 @@ screen -Rd exorde
 ```
 docker run -it exorde-cli -m YOUR_ETH_WALLET_ADDRESS -l LEVEL_LOGGING
 ```
-**exanple**
+**example**
 ```
 docker run -it exorde-cli -m 0x0898xxxxx -l 4
 ```
@@ -110,6 +110,8 @@ For logging can be filled in 0, 1, 2, 3, 4 logging details I will explain
 |4|Validation logs (details) + scrapping logs (for troubleshooting)|
 
 > I recommend using Logging level 4 to make it easier to troubleshoot if there are problems
+> **Main Ethereum Address, which will get all REP & EXDT for this local worker contribution.**
+**Exorde Reputation is non-transferable.**
 
 **NOTE:**
 -If you want to exit the terminal press `CTRL + A + D`
