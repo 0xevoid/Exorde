@@ -116,6 +116,7 @@ For logging can be filled in 0, 1, 2, 3, 4 logging details I will explain
 **Exorde Reputation is non-transferable.**
 
 **NOTE:**
+
 -If you want to exit the terminal press `CTRL + A + D`
 
 -If you want to enter the terminal use the command 
