@@ -191,3 +191,24 @@ Sometimes, Exorde Labs needs to push some update in the code. The module will de
 This is important for the Exorde Network to remain hommogenous, so older versions have to be killed right away.
 
 When this happens, the module will print a message & shut down.
+
+## How to Restart Exorde 
+
+> If you Unlock your Node, and are prompted to restart
+
+- Check Container Id
+```
+docker container ls -a
+```
+- Copy Your Container Id
+- Restart Container
+```
+docker restart Your_Container_Id
+```
+- Run Docker again 
+```
+docker run -it exorde-cli -m 0x0898xxxxx -l 4
+```
+> `0x0898xxxxx` **Replace with your ETH address**
+> 
+- Done
