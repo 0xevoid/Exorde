@@ -209,6 +209,20 @@ docker restart Your_Container_Id
 ```
 docker run -it exorde-cli -m 0x0898xxxxx -l 4
 ```
-> `0x0898xxxxx` **Replace with your ETH address**
-> 
+> `0x0898xxxxx` **Replace with your ETH address** 
+
+** Another guide For Restart
+- Check Container Id
+```
+docker ps -a 
+```
+- Restart Container
+```
+docker restart Your_Container_Id
+```
+- Run Docker again 
+```
+docker logs --follow Your_Container_Id
+``
+
 - Done
