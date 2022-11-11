@@ -224,6 +224,7 @@ docker restart Your_Container_Id
 - Run Docker again 
 ```
 docker logs --follow Your_Container_Id
-``
+```
+
 
 - Done
