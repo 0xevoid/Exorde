@@ -4,7 +4,7 @@
 <p align="center">
 <p style="font-size:85px" align="center"> Exorde Participation Module CLI v1.3.1 
 <p align="center">
-  <img height="50" height="auto" src="https://user-images.githubusercontent.com/112532410/200643438-8cea10cd-2c5e-40f6-8def-b30e5bd47e9f.jpeg">
+  <img height="185" height="auto" src="https://user-images.githubusercontent.com/112532410/200643438-8cea10cd-2c5e-40f6-8def-b30e5bd47e9f.jpeg">
 </p>
 
 # Exorde Participation Module CLI v1.3.1
